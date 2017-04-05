@@ -12,7 +12,7 @@ get '/' do
   @all_teams = Team.all
   page = params[:page] || 1
   n = (page.to_i * 5) - 5
-  @teams = Team.limit(5).offset(n).reorder('id')
+  @teams = Team.limit(5).offset(n)
   @games = Game.all
   erb :home
 end
