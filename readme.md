@@ -1,5 +1,13 @@
 # Sinatra, Bootstrap, and Database Powered TIY Sports
 
+## Assignment is to create a fully functional web app from a static designed page and pre-setup postgres Db
+
+* To start this program you must have pstgresql and the sinatra gem installed    
+  * run from the command line: ruby app.rb
+  * open your browser to http://localhost:4567/
+
+  ![TIY Sports Pagination](docs/TIY-sports-pagination.gif)
+
 Congratulations! Your design of the TIY Sports homepage was a huge success and you have been approved to implement the application as a dynamic web application powered by Ruby, Sinatra, and the Postgres database!
 
 ## Setup
